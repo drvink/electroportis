@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ElectroPortis", "ElectroPortis\ElectroPortis.vcxproj", "{93D83957-E3B7-4A3B-BCCC-6F4509F67527}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{31521142-AAD0-4BF0-A442-BD82AA3EF8D2}"
+	ProjectSection(SolutionItems) = preProject
+		Rebracer.xml = Rebracer.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93D83957-E3B7-4A3B-BCCC-6F4509F67527}.Debug|Win32.ActiveCfg = Debug|Win32
+		{93D83957-E3B7-4A3B-BCCC-6F4509F67527}.Debug|Win32.Build.0 = Debug|Win32
+		{93D83957-E3B7-4A3B-BCCC-6F4509F67527}.Release|Win32.ActiveCfg = Release|Win32
+		{93D83957-E3B7-4A3B-BCCC-6F4509F67527}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

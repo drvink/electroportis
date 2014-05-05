@@ -1,0 +1,12 @@
+* text=auto
+
+*.c text
+*.h text
+*.cpp text
+*.hpp text
+
+Rebracer.xml text eol=crlf
+*.sln text eol=crlf
+*.vcxproj text eol=crlf
+*.vcxproj.filters text eol=crlf
+*.vcxproj.user text eol=crlf

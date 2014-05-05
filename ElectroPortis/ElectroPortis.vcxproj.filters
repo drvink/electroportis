@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\saver">
+      <UniqueIdentifier>{0c326686-d460-4663-9c39-7ead6ca1382b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ext">
+      <UniqueIdentifier>{14de657e-d2f2-4856-a7e8-24a186acfdb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ext\vs2012_math">
+      <UniqueIdentifier>{54e3c5f6-6954-43fb-9942-18c18147ab69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ext\rand48">
+      <UniqueIdentifier>{d41b0530-79f3-4d0e-bfc8-7360cf6ebbcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ext">
+      <UniqueIdentifier>{41d7e2a8-a2cf-48f6-a426-0e1538f8f53b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ext\vs2012_math">
+      <UniqueIdentifier>{54da948b-1041-40a0-96b3-9f8ea407492e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ext\rand48">
+      <UniqueIdentifier>{026ca3d4-2f8f-46ec-be7a-174d20921b80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\saver">
+      <UniqueIdentifier>{ceea6277-9931-43a3-afd6-53fd33ed47e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\resource">
+      <UniqueIdentifier>{e73f0cad-85a4-4698-bf4f-925cdcb3964a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pch">
+      <UniqueIdentifier>{eb75e1db-e50d-48a6-94e3-c867214e55a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pch">
+      <UniqueIdentifier>{46783947-36ba-4a74-af9a-80464fb3aea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ext\SHRWLocks">
+      <UniqueIdentifier>{b52a72d5-5c41-4f01-8cac-fd7161adbdcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ext\wglext">
+      <UniqueIdentifier>{a0712e8a-f697-463a-94b1-70f31ef02bd6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\render.hpp">
+      <Filter>Header Files\saver</Filter>
+    </ClInclude>
+    <ClInclude Include="include\replay_draw.hpp">
+      <Filter>Header Files\saver</Filter>
+    </ClInclude>
+    <ClInclude Include="include\timeutil.hpp">
+      <Filter>Header Files\saver</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util.hpp">
+      <Filter>Header Files\saver</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\rand48\rand48.h">
+      <Filter>Header Files\ext\rand48</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\vs2012_math\vs2012_math.h">
+      <Filter>Header Files\ext\vs2012_math</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\vs2012_math\vs2012_math_private.h">
+      <Filter>Header Files\ext\vs2012_math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource\resource.h">
+      <Filter>Header Files\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stdafx.h">
+      <Filter>Header Files\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stdafx.hpp">
+      <Filter>Header Files\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="include\saver.hpp">
+      <Filter>Header Files\saver</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ep.h">
+      <Filter>Header Files\saver</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\SHRWLocks\SHRWLocks.hpp">
+      <Filter>Header Files\ext\SHRWLocks</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\wglext\wglext.h">
+      <Filter>Header Files\ext\wglext</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ext\rand48\_rand48.c">
+      <Filter>Source Files\ext\rand48</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\rand48\drand48.c">
+      <Filter>Source Files\ext\rand48</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\rand48\erand48.c">
+      <Filter>Source Files\ext\rand48</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\rand48\srand48.c">
+      <Filter>Source Files\ext\rand48</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\vs2012_math\math_constants.c">
+      <Filter>Source Files\ext\vs2012_math</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\vs2012_math\s_expm1.c">
+      <Filter>Source Files\ext\vs2012_math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ep.c">
+      <Filter>Source Files\saver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files\saver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render.cpp">
+      <Filter>Source Files\saver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\replay_draw.cpp">
+      <Filter>Source Files\saver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util.cpp">
+      <Filter>Source Files\saver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdafx.c">
+      <Filter>Source Files\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdafx.cpp">
+      <Filter>Source Files\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\saver.cpp">
+      <Filter>Source Files\saver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource\ElectroPortis.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resource\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
