@@ -7,6 +7,15 @@ a [custom MIPS to C decompiler][epanos].
 
 [epanos]: https://github.com/drvink/epanos
 
+### Downloads
+
+I wish I'd made this clearer, since GitHub does not: there is a pre-built
+binary!  Just click the "[releases][rel]" link at the top and download the zip.
+
+[rel]: https://github.com/drvink/electroportis/releases
+
+### How to use
+
 Some new features have been added.  Press "n" to create a cloned ElectroPaint
 window.  Press "f" to toggle between the following modes:
 
