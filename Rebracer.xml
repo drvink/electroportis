@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Rebracer Solution Settings File-->
 <!--This file contains Visual Studio settings for ElectroPortis.sln.-->
 <!--Rebracer uses this file to apply settings for this solution-->
@@ -166,6 +166,7 @@
         <PropertyValue name="AutoFormatOnPaste">true</PropertyValue>
         <PropertyValue name="AutoFormatOnSemicolon">true</PropertyValue>
         <PropertyValue name="AutoIndentOnTab">false</PropertyValue>
+        <PropertyValue name="AutoTuneMaximumCachedTranslationUnits">true</PropertyValue>
         <PropertyValue name="AutomaticOutliningOfPragmaRegions">true</PropertyValue>
         <PropertyValue name="AutomaticOutliningOfStatementBlocks">false</PropertyValue>
         <PropertyValue name="ColorizeInactiveBlocksDifferently">true</PropertyValue>
@@ -186,6 +187,7 @@
         <PropertyValue name="DisablePreLoadNavigateToCache">false</PropertyValue>
         <PropertyValue name="DisableReferenceHighlighting">false</PropertyValue>
         <PropertyValue name="DisableSemanticColoring">false</PropertyValue>
+        <PropertyValue name="DisableSharedIntelliSense">false</PropertyValue>
         <PropertyValue name="DisableSquiggles">false</PropertyValue>
         <PropertyValue name="DoNotWarnIfFallbackLocationUsed">false</PropertyValue>
         <PropertyValue name="EnableLogging">false</PropertyValue>
@@ -202,9 +204,10 @@
         <PropertyValue name="IndentCaseContents">true</PropertyValue>
         <PropertyValue name="IndentCaseLabels">false</PropertyValue>
         <PropertyValue name="IndentGotoLabels">1</PropertyValue>
+        <PropertyValue name="IndentNamespaceContents">false</PropertyValue>
         <PropertyValue name="LoggingFilter">0</PropertyValue>
         <PropertyValue name="LoggingLevel">5</PropertyValue>
-        <PropertyValue name="MaximumCachedTranslationUnits">2</PropertyValue>
+        <PropertyValue name="MaximumCachedTranslationUnits">15</PropertyValue>
         <PropertyValue name="MemberListCommitAggressive">false</PropertyValue>
         <PropertyValue name="MemberListCommitCharacters">{}[]().,:;+-*/%&amp;|^!=&lt;&gt;?@#\</PropertyValue>
         <PropertyValue name="MemberListFilterInaccessible">true</PropertyValue>
