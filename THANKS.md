@@ -11,6 +11,7 @@ SPECIAL THANKS TO
 * Hector Martin, for some tips that put me on the right path while solving some
   early problems
 * Gregg Tavares and Andrew Richards, for OpenGL advice
+* Peter Kliem, for the Android port
 * Everyone at Hex-Rays
 * The Otaru crew
 * Scotch 'n soda

@@ -90,6 +90,14 @@ it can fully parse the Windows API headers.
 
 ElectroPortis should run without issue on Windows XP and newer.
 
+#### Android
+
+Thanks to Peter Kliem, there is an [Android][] version!  It's available on
+[Google Play][gplay].
+
+[Android]: http://www.kliemax.de/electroportis.html
+[gplay]: https://play.google.com/store/apps/details?id=de.kliemax.electroportis
+
 #### Linux
 
 Most Linux users are probably on 64-bit systems at this point, and the original
@@ -98,26 +106,23 @@ base system was built as N32).  Since the decompiler has no way of determining
 that a given piece of data is a pointer, the emitted source has a restriction:
 if the target ABI doesn't have 32-bit pointers (as N32 does), the code will
 compile, but immediately crash upon the first pointer dereference.  This makes a
-port of any sort infeasible unless you wish to rewrite ep.c.
+port of any sort infeasible unless you wish to rewrite ep.c or set up a multilib
+environment.
 
 #### OS X
 
-Same issue as Linux--even though OS X still supports 32-bit binaries as of 10.9,
-support for them will likely be disappearing in a future version of OS X.
-Furthermore, the overengineered OS X screensaver framework loads Mach-O bundles;
-it does not simply run a binary.  The screensaver framework is, like the rest of
-the system, 64-bit, so screensaver mode is impossible on OS X (unless you
-rewrite ep.c).
+Even though OS X still runs x86 binaries as of 10.9, who knows when support for
+them will disappear.  Furthermore, the overengineered OS X screensaver framework
+loads Mach-O bundles; it does not simply run a binary.  The screensaver
+framework is, like the rest of the system, 64-bit, so screensaver mode is
+impossible on OS X (unless you rewrite ep.c or come up with some out-of-process
+solution).
 
 #### Excuses
 
-The maintenance cost of distributing a second or third version is just too high.
-Separate OS-specific glue is needed (GLFW is unsuitable for the screensaver
-mode) and different build systems would be required (there is no good
-platform-independent build system, don't kid yourself).  That said, it took
-about an hour to make a simple port to both platforms supporting single window
-and single full-screen modes, so if you wish to make one, do so and it will be
-linked to here!
+I just don't have the time to maintain ports, honestly.  Sorry.  I do have
+working code for OS X (sans screensaver capability)--if you'd like it, please
+mail me.
 
 ### About the code
 
